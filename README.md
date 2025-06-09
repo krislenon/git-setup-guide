@@ -3,33 +3,40 @@ This guide will help you install Git and clone a Git repository in your Windows 
 
 # Prerequisites
 ## What will you need?
-- Windows PC
-- Stable internet connection
-- GitHub account
+- A Windows PC
+- An internet connection
+- Access to GitHub
 
 
 ## Step 1: Download & Install Git
-- Visit [git-scm.com](https://git-scm.com/downloads/win) and install the latest Git version.
-- Double-click the downloaded file to start the installation.
-- Leave the default configuration as is.
+1. Go to the Git official website: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+2. Download the latest version for Windows.
+3. Run the installer and proceed through the setup wizard.
+4. You can leave the default options selected during installation.
 
 
 ## Step 2: Verify Installation
-- Open Command Prompt and type this command:
+1. Open **Command Prompt**.
+2. Type the following command:
   ```
   git --version
   ```
-- If a Git version shows, then the installation is successful.
+3. If Git is installed correctly, you’ll see a version number (e.g., `git version 2.42.0`).
 
 
 ## Step 3: Clone a Repository
-- Visit a GitHub repository you want to clone.
-- Click the green button named “Code”.
-- Click the copy button beside the URL to copy the URL.
-- In the command prompt, use the command by replacing the URL:
+1. Go to the GitHub page of the repository you want to clone.
+2. Click the green **Code** button and copy the HTTPS link.
+3. In Command Prompt, navigate to the folder where you want to store the repository.
+4. Run the following command (replace the URL with your copied link):
   ```
   git clone <URL>
   ```
+5. The repository will be downloaded into your current directory.
 
 # Conclusion / Next Steps
-To learn more, you can visit: [Git Tutorial](https://www.w3schools.com/git/)
+After cloning, you can navigate into the repository folder using:
+  ```
+  cd repo-name
+  ```
+From here, you can start exploring or editing the code!
