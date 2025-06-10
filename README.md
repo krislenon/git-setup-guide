@@ -1,3 +1,10 @@
+# Git Setup Guide (Portfolio Sample)
+
+This is a sample technical document created as part of my technical writing portfolio. It provides beginner-friendly instructions for installing Git on Windows and cloning a repository from GitHub using the command line.
+
+**Audience:** New developers or team members unfamiliar with Git  
+**Purpose:** Help users set up Git quickly and verify installation
+
 # Introduction
 This guide will help you install Git and clone a Git repository in your Windows environment. 
 
@@ -37,6 +44,6 @@ This guide will help you install Git and clone a Git repository in your Windows 
 # Conclusion / Next Steps
 After cloning, you can navigate into the repository folder using:
   ```
-  cd repo-name
+  cd <repo-name>
   ```
 From here, you can start exploring or editing the code!
